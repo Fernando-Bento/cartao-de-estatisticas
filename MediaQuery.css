@@ -1,0 +1,34 @@
+@media screen and (min-width: 1350px) {
+
+    body{
+        margin: 0;
+    }
+
+    main{
+        width: 1300px;
+        height: 500px;
+    }
+
+    header{
+        float: right;
+        height: 100%;
+        width: 50%;
+    }
+
+    section{
+        float: left;
+        width: 45%;
+        text-align: left;
+        padding: 70px;
+    }
+
+    ul{
+        padding-top: 50px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    li h2{
+        font-weight: 300;
+    }
+}
